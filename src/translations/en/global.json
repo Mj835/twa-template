@@ -1,0 +1,8 @@
+{
+  "header": {
+    "message": "Welcome to twa-template site"
+  },
+  "home": {
+    "body": "A website based on telegram web app"
+  }
+}
