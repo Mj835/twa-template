@@ -182,7 +182,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.19.0"
 
-"@babel/runtime@^7.22.5":
+"@babel/runtime@^7.19.4", "@babel/runtime@^7.22.5":
   "integrity" "sha512-21t/fkKLMZI4pqP2wlmsQAWnYW1PDyKyyUV4vCi+B25ydmdaYTKXPwCj0BzSUnZf4seIiYvSA3jcZ3gdsMFkLQ=="
   "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.22.10.tgz"
   "version" "7.22.10"
@@ -1067,10 +1067,17 @@
   "resolved" "https://registry.npmjs.org/https-browserify/-/https-browserify-1.0.0.tgz"
   "version" "1.0.0"
 
-"i18next@^23.4.3", "i18next@>= 23.2.3":
-  "integrity" "sha512-EgwHA+R+WIJ/eypepS6RWzyiPp3JR8c3W7vyvgRcY2q9a4PQQHY96jugVF5CBHm0MvK8XBYCGUgtjd4R6UTvwA=="
-  "resolved" "https://registry.npmjs.org/i18next/-/i18next-23.4.3.tgz"
-  "version" "23.4.3"
+"i18next-browser-languagedetector@^7.1.0":
+  "integrity" "sha512-cr2k7u1XJJ4HTOjM9GyOMtbOA47RtUoWRAtt52z43r3AoMs2StYKyjS3URPhzHaf+mn10hY9dZWamga5WPQjhA=="
+  "resolved" "https://registry.npmjs.org/i18next-browser-languagedetector/-/i18next-browser-languagedetector-7.1.0.tgz"
+  "version" "7.1.0"
+  dependencies:
+    "@babel/runtime" "^7.19.4"
+
+"i18next@^23.4.4", "i18next@>= 23.2.3":
+  "integrity" "sha512-+c9B0txp/x1m5zn+QlwHaCS9vyFtmIAEXbVSFzwCX7vupm5V7va8F9cJGNJZ46X9ZtoGzhIiRC7eTIIh93TxPA=="
+  "resolved" "https://registry.npmjs.org/i18next/-/i18next-23.4.4.tgz"
+  "version" "23.4.4"
   dependencies:
     "@babel/runtime" "^7.22.5"
 
@@ -1470,10 +1477,10 @@
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
 
-"react-i18next@^13.0.3":
-  "integrity" "sha512-/t4kt4Y2o+21hbvx+o9zpVnmoiud7KLDncyZFGN0U6TGAWYaXdTsp/ytAHFcKKSAODg4noIMaOO3X7bMgCqLHw=="
-  "resolved" "https://registry.npmjs.org/react-i18next/-/react-i18next-13.0.3.tgz"
-  "version" "13.0.3"
+"react-i18next@^13.1.2":
+  "integrity" "sha512-D/OJ/8ZQYscabsvbCAiOgvJq8W3feQF/VIV0to1w7V7UvrUE1IZ3hcalOckUYvKBd7BP3b8EPm+hop3J8sS+Mw=="
+  "resolved" "https://registry.npmjs.org/react-i18next/-/react-i18next-13.1.2.tgz"
+  "version" "13.1.2"
   dependencies:
     "@babel/runtime" "^7.22.5"
     "html-parse-stringify" "^3.0.1"

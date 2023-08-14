@@ -7,10 +7,12 @@ import i18next from "i18next";
 import global_en from "./translations/en/global.json";
 import global_zh from "./translations/zh/global.json";
 import { I18nextProvider } from "react-i18next";
+import i18n from "i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 
-i18next.init({
+i18n.use(LanguageDetector).init({
   interpolation: { escapeValue: false },
-  lng: "en",
+  lng: "en", // Default language
   resources: {
     en: {
       global: global_en,
