@@ -23,6 +23,8 @@ i18n.use(LanguageDetector).init({
   },
 });
 
+console.log("Auto-detected language:", i18n.language);
+
 // this manifest is used temporarily for development purposes
 const manifestUrl =
   "https://raw.githubusercontent.com/ton-community/tutorials/main/03-client/test/public/tonconnect-manifest.json";
