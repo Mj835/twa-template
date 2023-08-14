@@ -21,9 +21,27 @@ const Header = () => {
       </Button>
       <Button
         onClick={() => handleChangeLang("zh")}
-        style={{ backgroundColor: "black" }}
+        style={{ marginRight: 5, backgroundColor: "black" }}
       >
         ZH
+      </Button>
+      <Button
+        onClick={() => handleChangeLang("de")}
+        style={{ marginRight: 5, backgroundColor: "black" }}
+      >
+        DE
+      </Button>
+      <Button
+        onClick={() => handleChangeLang("es")}
+        style={{ marginRight: 5, backgroundColor: "black" }}
+      >
+        ES
+      </Button>
+      <Button
+        onClick={() => handleChangeLang("it")}
+        style={{ backgroundColor: "black" }}
+      >
+        IT
       </Button>
       <br />
       <br />
